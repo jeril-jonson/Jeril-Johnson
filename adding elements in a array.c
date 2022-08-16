@@ -1,4 +1,4 @@
-#invlude<stdio.h>
+#include<stdio.h>
 int main()
 {
 int i,a[20],n,sum=0;
