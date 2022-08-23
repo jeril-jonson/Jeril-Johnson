@@ -2,13 +2,17 @@
      
 int main()    
 {    
-    //Initialize array     
-    int arr[] = {5, 2, 8, 7, 1};     
-    int temp = 0;    
-        
-    //Calculate length of array arr    
-    int length = sizeof(arr)/sizeof(arr[0]);    
-        
+   
+       
+    int temp = 0,length ;   
+     
+      printf("Enter the size of array");
+     scanf("%d",&length);
+     
+     //storing the elements
+     for (int i = 0; i < length; i++) {     
+        scanf("%d", &arr[i]);     
+    }     
     //Displaying elements of original array    
     printf("Elements of original array: \n");    
     for (int i = 0; i < length; i++) {     
